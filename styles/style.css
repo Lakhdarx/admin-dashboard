@@ -6,8 +6,7 @@
 
 @font-face {
     font-family: 'Work Sans';
-    src: url('../fonts/WorkSans-Regular.woff2') format('woff2'),
-        url('../fonts/WorkSans-Regular.woff') format('woff');
+    src: url('../fonts/WorkSans-VariableFont_wght.woff2') format('woff2');
     font-weight: 100 900;
     font-style: normal;
     font-display: swap;
@@ -15,8 +14,7 @@
 
 @font-face {
     font-family: 'Work Sans';
-    src: url('../fonts/WorkSans-Italic.woff2') format('woff2'),
-        url('../fonts/WorkSans-Italic.woff') format('woff');
+    src: url('../fonts/WorkSans-Italic-VariableFont_wght.woff2') format('woff2');
     font-weight: 100 900;
     font-style: italic;
     font-display: swap;
@@ -28,7 +26,7 @@ body {
     font-family: 'Work Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display:grid;
     height: 110vh;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 5fr;
     grid-template-areas: "sidebar header"
     "sidebar main";
@@ -58,5 +56,243 @@ ul {
 
 
 /* Header section */
+
+
+
+.header-top {
+    padding: 100px;
+}
+.header-top, 
+.search-panel {
+    display: flex;
+}
+
+
+
+
+/* ------------------- */
+/* SIDEBAR */
+
+.sidebar {
+    padding: 80px;
+}
+
+
+
+
+.nav-main {
+    margin-top: 250px;
+}
+
+.nav-main div:not(:last-child),
+.nav-user div:not(:last-child) {
+    margin-bottom: 80px;
+}
+
+
+/* Logo */
+
+.logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 80px;
+    /* outline: 1px solid red; */
+}
+
+#logo-svg {
+    width: 180px;
+    height: auto;
+    fill: white;
+}
+
+
+#logo-header {
+    font-size: 7rem;
+    font-style: normal;
+    color: white;
+    font-weight: 600;
+    margin: 0;
+}
+
+
+
+.sidebar h3 {
+    font-size: 6rem;
+    color: white;
+    font-style: normal;
+    margin: 0;
+    font-weight: 500;
+}
+
+/* Home */
+
+
+
+
+.home {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    justify-content: start;
+}
+
+#home-svg {
+    width: 70px;
+    height: auto;
+    margin: 0 40px;
+
+}
+
+
+
+/* profile */
+
+
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    justify-content: start;
+}
+
+#profile-svg {
+    width: 85px;
+    height: auto;
+    margin: 0 32.5px;
+
+}
+
+
+/* Message */
+
+
+
+.messages {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    justify-content: start;
+}
+
+#messages-svg {
+    width: 85px;
+    height: auto;
+    margin: 0 32.5px;
+
+}
+
+/* History */
+
+
+
+
+.history {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    justify-content: start;
+}
+
+#history-svg {
+    width: 85px;
+    height: auto;
+    margin: 0 32.5px;
+
+}
+
+/* Tasks */
+
+
+
+.tasks {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    justify-content: start;
+}
+
+#tasks-svg {
+    width: 70px;
+    height: auto;
+    margin: 0 40px;
+
+}
+
+
+
+/* COmmunity */
+
+
+.community {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    justify-content: start;
+}
+
+#community-svg {
+    width: 80px;
+    height: auto;
+    margin: 0 32.5px;
+}
+
+
+
+
+
+
+/* nav user */
+
+.nav-user {
+    margin-top: 250px;
+}
+
+
+.settings {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    justify-content: start;
+}
+
+#settings-svg {
+    width: 85px;
+    height: auto;
+    margin: 0 32.5px;
+
+}
+
+.privacy {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    justify-content: start;
+}
+
+#privacy-svg {
+    width: 85px;
+    height: auto;
+    margin: 0 32.5px;
+
+}
+
+
+.support {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    justify-content: start;
+}
+
+#support-svg {
+    width: 85px;
+    height: auto;
+    margin: 0 32.5px;
+
+}
+
+
 
 
