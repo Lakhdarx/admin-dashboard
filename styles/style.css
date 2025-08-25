@@ -26,6 +26,7 @@ body {
     font-family: 'Work Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display:grid;
     height: 110vh;
+    width: 100vw;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 5fr;
     grid-template-areas: "sidebar header"
@@ -59,7 +60,7 @@ ul {
 /* SIDEBAR */
 
 .sidebar {
-    padding: 80px;
+    padding: 20px;
     z-index: 2;
 }
 
@@ -67,12 +68,12 @@ ul {
 
 
 .nav-main {
-    margin-top: 250px;
+    margin-top: 62.5px;
 }
 
 .nav-main div:not(:last-child),
 .nav-user div:not(:last-child) {
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 }
 
 
@@ -82,19 +83,19 @@ ul {
     display: flex;
     justify-content: start;
     align-items: center;
-    gap: 80px;
+    gap: 20px;
     /* outline: 1px solid red; */
 }
 
 #logo-svg {
-    width: 180px;
+    width: 45px;
     height: auto;
     fill: white;
 }
 
 
 #logo-header {
-    font-size: 7rem;
+    font-size: 1.75rem;
     font-style: normal;
     color: white;
     font-weight: 600;
@@ -104,7 +105,7 @@ ul {
 
 
 .sidebar h3 {
-    font-size: 6rem;
+    font-size: 1.5rem;
     color: white;
     font-style: normal;
     margin: 0;
@@ -119,14 +120,14 @@ ul {
 .home {
     display: flex;
     align-items: center;
-    gap: 80px;
+    gap: 20px;
     justify-content: start;
 }
 
 #home-svg {
-    width: 70px;
+    width: 17.5px;
     height: auto;
-    margin: 0 40px;
+    margin: 0 10px;
 
 }
 
@@ -139,14 +140,14 @@ ul {
 .profile {
     display: flex;
     align-items: center;
-    gap: 80px;
+    gap: 20px;
     justify-content: start;
 }
 
 #profile-svg {
-    width: 85px;
+    width: 21.25px;
     height: auto;
-    margin: 0 32.5px;
+    margin: 0 8.125px;
 
 }
 
@@ -158,14 +159,14 @@ ul {
 .messages {
     display: flex;
     align-items: center;
-    gap: 80px;
+    gap: 20px;
     justify-content: start;
 }
 
 #messages-svg {
-    width: 85px;
+    width: 21.25px;
     height: auto;
-    margin: 0 32.5px;
+    margin: 0 8.125px;
 
 }
 
@@ -177,14 +178,14 @@ ul {
 .history {
     display: flex;
     align-items: center;
-    gap: 80px;
+    gap: 20px;
     justify-content: start;
 }
 
 #history-svg {
-    width: 85px;
+    width: 21.25px;
     height: auto;
-    margin: 0 32.5px;
+    margin: 0 8.125px;
 
 }
 
@@ -195,14 +196,14 @@ ul {
 .tasks {
     display: flex;
     align-items: center;
-    gap: 80px;
+    gap: 20px;
     justify-content: start;
 }
 
 #tasks-svg {
-    width: 70px;
+    width: 17.5px;
     height: auto;
-    margin: 0 40px;
+    margin: 0 10px;
 
 }
 
@@ -214,14 +215,14 @@ ul {
 .community {
     display: flex;
     align-items: center;
-    gap: 80px;
+    gap: 20px;
     justify-content: start;
 }
 
 #community-svg {
-    width: 80px;
+    width: 20px;
     height: auto;
-    margin: 0 32.5px;
+    margin: 0 8.125px;
 }
 
 
@@ -232,35 +233,35 @@ ul {
 /* nav user */
 
 .nav-user {
-    margin-top: 250px;
+    margin-top: 62.5px;
 }
 
 
 .settings {
     display: flex;
     align-items: center;
-    gap: 80px;
+    gap: 20px;
     justify-content: start;
 }
 
 #settings-svg {
-    width: 85px;
+    width: 21.25px;
     height: auto;
-    margin: 0 32.5px;
+    margin: 0 8.125px;
 
 }
 
 .privacy {
     display: flex;
     align-items: center;
-    gap: 80px;
+    gap: 20px;
     justify-content: start;
 }
 
 #privacy-svg {
-    width: 85px;
+    width: 21.25px;
     height: auto;
-    margin: 0 32.5px;
+    margin: 0 8.125px;
 
 }
 
@@ -268,14 +269,14 @@ ul {
 .support {
     display: flex;
     align-items: center;
-    gap: 80px;
+    gap: 20px;
     justify-content: start;
 }
 
 #support-svg {
-    width: 85px;
+    width: 21.25px;
     height: auto;
-    margin: 0 32.5px;
+    margin: 0 8.125px;
 
 }
 
@@ -288,23 +289,23 @@ ul {
 
 /* top */
 .header {
-    padding: 50px 280px;
+    padding: 12.5px 70px;
     z-index: 1;
-    box-shadow: 0px 1px 50px -20px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0px 1px 50px -20px rgba(0, 0, 0, 0.5); */
 }
 
 .header-top {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    gap: 80px;
+    gap: 20px;
 }
 
 .search-panel {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    gap: 60px;
+    gap: 15px;
   
 }
 
@@ -317,17 +318,17 @@ ul {
 
 #search-svg,
 #notifications-svg {
-    width: 100px;
+    width: 25px;
     height: auto;
 }
 
 
 
 #profile-avatar {
-    width: 200px;
+    width: 50px;
     height: auto;
     border-radius: 50%;
-    border: 6px solid black;
+    border: 1.5px solid black;
 }
 
 
@@ -336,11 +337,11 @@ ul {
     background-color: var(--gray);
     width: 80%;
     min-width:max-content;
-    height: 130px;
-    font-size: 4.5rem;
-    padding: 60px;
+    height: 32.5px;
+    font-size: 1.125rem;
+    padding: 15px;
     outline: 0;
-    border-radius: 50px;
+    border-radius: 12.5px;
 }
 
 .header-top form {
@@ -349,7 +350,7 @@ ul {
 
 
 .profile-name {
-    font-size: 5rem;
+    font-size: 1.25rem;
     font-weight: 600;
 }
 
@@ -360,7 +361,7 @@ ul {
     align-items: center;
     justify-content: space-between;
     flex: 1;
-    gap: 50px;
+    gap: 12.5px;
 }
 
 
@@ -375,16 +376,16 @@ ul {
 
 #big-profile-avatar {
     border-radius: 50%;
-    border: 6px solid black;
-    width: 320px;
+    border: 1.5px solid black;
+    width: 80px;
     height: auto;
 }
 
 
 .header-bottom {
-    margin: 120px 0 50px 0;
+    margin: 30px 0 12.5px 0;
     display: flex;
-    gap: 50px;
+    gap: 12.5px;
     align-items: center;
     justify-content: space-between;
 }
@@ -396,7 +397,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 50px;
+    gap: 12.5px;
 }
 
 
@@ -405,7 +406,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: start;
-    gap: 50px;
+    gap: 12.5px;
 
 }
 
@@ -415,29 +416,29 @@ ul {
 }
 
 .welcome-message h2 {
-    font-size: 6rem;
+    font-size: 1.5rem;
     font-weight: 600;
     margin: 0;
 }
 
 .welcome-message p {
-    font-size: 4rem;
+    font-size: 1rem;
     font-weight: 500;
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 
 
 
 .buttons button {
-    font-size: 4rem;
+    font-size: 1rem;
     font-weight: 500;
-    padding: 40px 120px;
+    padding: 10px 30px;
     color: white;
     background-color: var(--blue);
     border: 0;
-    border-radius: 120px;
+    border-radius: 30px;
 
 }
 
