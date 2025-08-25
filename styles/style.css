@@ -55,26 +55,12 @@ ul {
 }
 
 
-/* Header section */
-
-
-
-.header-top {
-    padding: 100px;
-}
-.header-top, 
-.search-panel {
-    display: flex;
-}
-
-
-
-
 /* ------------------- */
 /* SIDEBAR */
 
 .sidebar {
     padding: 80px;
+    z-index: 2;
 }
 
 
@@ -290,6 +276,168 @@ ul {
     width: 85px;
     height: auto;
     margin: 0 32.5px;
+
+}
+
+
+
+
+/* ----------------- */
+/* HEADER */
+
+
+/* top */
+.header {
+    padding: 50px 280px;
+    z-index: 1;
+    box-shadow: 0px 1px 50px -20px rgba(0, 0, 0, 0.5);
+}
+
+.header-top {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.search-panel {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+  
+}
+
+.search-panel form {
+    flex:1;
+}
+
+
+
+
+#search-svg,
+#notifications-svg {
+    width: 100px;
+    height: auto;
+}
+
+
+
+#profile-avatar {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 6px solid black;
+}
+
+
+.header-top input {
+    border: 0;
+    background-color: var(--gray);
+    width: 80%;
+    min-width:max-content;
+    height: 130px;
+    font-size: 4.5rem;
+    padding: 60px;
+    outline: 0;
+    border-radius: 50px;
+}
+
+.header-top form {
+    display: grid;     /* To center the input vertically */
+}
+
+
+.profile-name {
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+
+
+.profile-panel {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    gap: 50px;
+}
+
+
+.search-panel {
+    flex: 2.7;
+}
+
+
+
+/* header bottom */
+
+
+#big-profile-avatar {
+    border-radius: 50%;
+    border: 6px solid black;
+    width: 320px;
+    height: auto;
+}
+
+
+.header-bottom {
+    margin: 120px 0 50px 0;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.header-bottom .buttons {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+
+.welcome-panel {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 50px;
+
+}
+
+.welcome-message {
+    flex: 1;
+    min-width: 65ch;
+}
+
+.welcome-message h2 {
+    font-size: 6rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.welcome-message p {
+    font-size: 4rem;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+
+
+
+.buttons button {
+    font-size: 4rem;
+    font-weight: 500;
+    padding: 40px 120px;
+    color: white;
+    background-color: var(--blue);
+    border: 0;
+    border-radius: 120px;
 
 }
 
